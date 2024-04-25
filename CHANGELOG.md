@@ -1,3 +1,6 @@
+# 4.0.1.2 (Forge Only)
+* Add SereneSeasons Support 
+
 # 4.0.1.1
 * Add Soul Fire'd Support
 * Remove Duplicate FruitBlock Code

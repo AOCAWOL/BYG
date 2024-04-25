@@ -1,0 +1,20 @@
+{
+  "values": [
+    {
+      "id": "byg:tropical_rainforest",
+      "required": false
+    },
+    {
+      "id": "byg:windswept_desert",
+      "required": false
+    },
+    {
+      "id": "byg:mojave_desert",
+      "required": false
+    },
+    {
+      "id": "byg:bayou",
+      "required": false
+    }
+  ]
+}

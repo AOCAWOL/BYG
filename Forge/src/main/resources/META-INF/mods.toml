@@ -56,3 +56,10 @@ mandatory = false
 versionRange = "[3.2,)"
 ordering = "NONE"
 side = "BOTH"
+
+[[dependencies.byg]]
+modId = "sereneseasons"
+mandatory = false
+versionRange = "[8.3.0.40,)"
+ordering = "NONE"
+side = "BOTH"
