@@ -80,17 +80,6 @@
     {
       "element": {
         "element_type": "minecraft:legacy_single_pool_element",
-        "location": "byg:village/salem/houses/salem_large_house_1",
-        "processors": {
-          "processors": []
-        },
-        "projection": "rigid"
-      },
-      "weight": 2
-    },
-    {
-      "element": {
-        "element_type": "minecraft:legacy_single_pool_element",
         "location": "byg:village/salem/houses/salem_shepherd_house_1",
         "processors": {
           "processors": []

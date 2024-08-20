@@ -2,6 +2,7 @@
 * Add Spanish (Chile) Lang (EN_CL)
 * Update Support for Soul Fire'd with new mod ID
 * Remove Unused Assets
+* Remove Corrupted Salem Large House 1 Structure
 
 # 4.0.1.2 (Forge Only)
 * Add SereneSeasons Support 

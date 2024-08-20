@@ -68,7 +68,6 @@ public class SalemVillagePools {
                         Pair.of(StructurePoolElement.legacy("byg:village/salem/houses/salem_medium_house_2"), 3),
                         Pair.of(StructurePoolElement.legacy("byg:village/salem/houses/salem_medium_house_3"), 3),
                         Pair.of(StructurePoolElement.legacy("byg:village/salem/houses/salem_medium_house_4"), 3),
-                        Pair.of(StructurePoolElement.legacy("byg:village/salem/houses/salem_large_house_1"), 2),
                         Pair.of(StructurePoolElement.legacy("byg:village/salem/houses/salem_shepherd_house_1"), 3),
                         Pair.of(StructurePoolElement.legacy("byg:village/salem/houses/salem_mason_1"), 2),
                         Pair.of(StructurePoolElement.legacy("byg:village/salem/houses/salem_temple"), 3),
