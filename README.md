@@ -6,7 +6,7 @@ Oh The Biomes You'll Go is an exploration and adventure mod designed to take you
 ---
 
 # Configuring the mod
-* Instructions on how to configure BYG can be found on the [Wiki](https://github.com/AOCAWOL/BYG/wiki).
+* Instructions on how to configure BYG can be found on the [Wiki](https://github.com/Potion-Studios/BYG/wiki).
 
 ---
 

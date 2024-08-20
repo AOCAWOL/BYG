@@ -5,6 +5,7 @@
 * Update Support for Soul Fire'd with new mod ID
 * Remove Unused Assets
 * Remove Corrupted Salem Large House 1 Structure
+* Update Links
 
 # 4.0.1.2 (Forge Only)
 * Add SereneSeasons Support 

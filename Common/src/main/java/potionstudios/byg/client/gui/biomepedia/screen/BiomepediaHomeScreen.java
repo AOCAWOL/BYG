@@ -23,8 +23,8 @@ import java.net.URISyntaxException;
 import java.util.List;
 
 public class BiomepediaHomeScreen extends AbstractBiomepediaScreen {
-    public static final String PATREON_URL = "https://www.patreon.com/biomesyougo";
-    public static final String GITHUB_ISSUES_URL = "https://github.com/AOCAWOL/BYG/issues";
+    public static final String PATREON_URL = "https://www.patreon.com/potionstudios";
+    public static final String GITHUB_ISSUES_URL = "https://github.com/Potion-Studios/BYG/issues";
     public static final String TRANSLATIONS_URL = "https://crowdin.com/project/oh-the-biomes-youll-go";
     public static final ResourceLocation BIOMEPEDIA_LOCATION = BYG.createLocation("textures/gui/biomepedia_book_gui.png");
     public static final String DOWNLOAD_URL = ModPlatform.INSTANCE.curseForgeURL();
