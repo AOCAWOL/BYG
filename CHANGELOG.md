@@ -1,3 +1,8 @@
+# 4.0.1.3
+* Add Spanish (Chile) Lang (EN_CL)
+* Update Support for Soul Fire'd with new mod ID
+* Remove Unused Assets
+
 # 4.0.1.2 (Forge Only)
 * Add SereneSeasons Support 
 
