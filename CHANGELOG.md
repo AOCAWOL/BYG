@@ -1,4 +1,6 @@
-* For 1.20.1 and above Check out Oh The Biomes We've Gone: https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone
+# For 1.20.1 and above Check out Oh The Biomes We've Gone: 
+* CurseForge: https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone
+* Modrinth: https://modrinth.com/mod/oh-the-biomes-weve-gone
 
 # 4.0.1.3
 * Add Spanish (Chile) Lang (EN_CL)
