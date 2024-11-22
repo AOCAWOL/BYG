@@ -8,6 +8,7 @@
 * Remove Unused Assets
 * Remove Corrupted Salem Large House 1 Structure
 * Update Links
+* Update Access Widener to v2
 
 # 4.0.1.2 (Forge Only)
 * Add SereneSeasons Support 

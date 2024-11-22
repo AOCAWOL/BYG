@@ -14,7 +14,7 @@ tasks.register('optimise', OptimisePNGTask) {
 }
 
 minecraft {
-    accessWideners(project.file("src/main/resources/byg.aw"))
+    accessWideners(project.file("src/main/resources/byg.accesswidener"))
     version(minecraft_version)
     runs {
         if (project.hasProperty('common_runs_enabled') ? project.findProperty('common_runs_enabled').toBoolean() : true) {

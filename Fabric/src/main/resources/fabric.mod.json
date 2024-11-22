@@ -55,5 +55,5 @@
   "suggests": {
     "soulfired": ">=3.2.0.0"
   },
-  "accessWidener": "byg.aw"
+  "accessWidener": "byg.accesswidener"
 }

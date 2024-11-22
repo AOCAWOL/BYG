@@ -68,7 +68,7 @@ dependencies {
 reg.configureJarTask(shadowJar)
 
 loom {
-    accessWidenerPath = project(":Common").file("src/main/resources/byg.aw")
+    accessWidenerPath = project(":Common").file("src/main/resources/byg.accesswidener")
     runs {
         def args = ["-DbygDev=true", "-DbygGenerateData=true"]
 

@@ -1,0 +1,32 @@
+accessWidener v2 named
+
+accessible class net/minecraft/world/level/biome/Biome$ClimateSettings
+accessible class net/minecraft/world/inventory/MenuType$MenuSupplier
+accessible class net/minecraft/client/gui/screens/MenuScreens$ScreenConstructor
+accessible class net/minecraft/world/level/block/entity/BlockEntityType$BlockEntitySupplier
+accessible class net/minecraft/world/level/levelgen/SurfaceRules$Context
+accessible class net/minecraft/world/level/levelgen/SurfaceRules$SurfaceRule
+accessible class net/minecraft/client/particle/ParticleEngine$SpriteParticleRegistration
+accessible class net/minecraft/world/entity/npc/VillagerTrades$DyedArmorForEmeralds
+accessible class net/minecraft/world/entity/npc/VillagerTrades$EmeraldForItems
+accessible class net/minecraft/world/entity/npc/VillagerTrades$EmeraldsForVillagerTypeItem
+accessible class net/minecraft/world/entity/npc/VillagerTrades$EnchantBookForEmeralds
+accessible class net/minecraft/world/entity/npc/VillagerTrades$EnchantedItemForEmeralds
+accessible class net/minecraft/world/entity/npc/VillagerTrades$ItemsAndEmeraldsToItems
+accessible class net/minecraft/world/entity/npc/VillagerTrades$ItemsForEmeralds
+accessible class net/minecraft/world/entity/npc/VillagerTrades$SuspiciousStewForEmerald
+accessible class net/minecraft/world/entity/npc/VillagerTrades$TippedArrowForItemsAndEmeralds
+accessible class net/minecraft/world/entity/npc/VillagerTrades$TreasureMapForEmeralds
+accessible class net/minecraft/world/level/levelgen/SurfaceRules$StateRule
+accessible class net/minecraft/data/HashCache$CacheUpdater
+accessible class net/minecraft/data/HashCache$ProviderCache
+
+accessible method net/minecraft/client/gui/components/Button <init> (IIIILnet/minecraft/network/chat/Component;Lnet/minecraft/client/gui/components/Button$OnPress;Lnet/minecraft/client/gui/components/Button$CreateNarration;)V
+
+extendable method net/minecraft/client/gui/components/AbstractSelectionList getRowBottom (I)I
+
+extendable method net/minecraft/world/level/biome/OverworldBiomeBuilder pickBeachBiome (II)Lnet/minecraft/resources/ResourceKey;
+extendable method net/minecraft/world/level/biome/OverworldBiomeBuilder pickPeakBiome (IILnet/minecraft/world/level/biome/Climate$Parameter;)Lnet/minecraft/resources/ResourceKey;
+extendable method net/minecraft/world/level/biome/OverworldBiomeBuilder pickSlopeBiome (IILnet/minecraft/world/level/biome/Climate$Parameter;)Lnet/minecraft/resources/ResourceKey;
+
+extendable class net/minecraft/world/level/biome/OverworldBiomeBuilder
