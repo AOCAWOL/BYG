@@ -2,7 +2,7 @@
 * CurseForge: https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone
 * Modrinth: https://modrinth.com/mod/oh-the-biomes-weve-gone
 
-# 4.0.1.3
+# 4.0.1.3 - Last BYG Update, Thank you for all the support and please check out the Sequel BWG!
 * Add Spanish (Chile) Lang (EN_CL)
 * Update Support for Soul Fire'd with new mod ID
 * Remove Unused Assets
