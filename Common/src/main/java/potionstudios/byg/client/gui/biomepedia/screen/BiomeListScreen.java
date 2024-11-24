@@ -12,7 +12,6 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.chat.MutableComponent;
 import net.minecraft.resources.ResourceKey;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.util.FastColor;
 import net.minecraft.world.level.biome.Biome;
 import org.apache.commons.lang3.mutable.Mutable;
@@ -128,7 +127,7 @@ public class BiomeListScreen extends AbstractBiomepediaScreen {
 
         this.searchButton = new ImageButton(
                 this.leftPos + 15, (this.bottomPos + this.IMAGE_HEIGHT) - 5, 20, 18, 0, 220, 18,
-                new ResourceLocation("byg", "textures/gui/biomepedia.png"),
+                BYG.createLocation("textures/gui/biomepedia.png"),
                 256, 256,
                 (button) -> {
                     this.search.visible = !this.search.visible;

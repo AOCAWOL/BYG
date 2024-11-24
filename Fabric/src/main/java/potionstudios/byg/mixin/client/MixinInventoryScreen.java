@@ -6,13 +6,13 @@ import net.minecraft.client.gui.components.Tooltip;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.screens.inventory.InventoryScreen;
 import net.minecraft.network.chat.Component;
-import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.inventory.AbstractContainerMenu;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
+import potionstudios.byg.BYG;
 import potionstudios.byg.BYGConstants;
 import potionstudios.byg.client.BiomepediaInventoryConfig;
 import potionstudios.byg.client.gui.biomepedia.screen.BiomepediaHomeScreen;
@@ -36,7 +36,7 @@ public abstract class MixinInventoryScreen<T extends AbstractContainerMenu> exte
                         20, 18,
                         0, 220,
                         18,
-                        new ResourceLocation("byg", "textures/gui/biomepedia.png"),
+                        BYG.createLocation("textures/gui/biomepedia.png"),
                         256, 256,
                         (button) -> Minecraft.getInstance().setScreen(new BiomepediaHomeScreen(Component.literal(""))),
                         Component.literal("Lorem Ipsum")

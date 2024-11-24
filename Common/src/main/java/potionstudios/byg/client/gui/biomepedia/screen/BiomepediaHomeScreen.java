@@ -28,7 +28,7 @@ public class BiomepediaHomeScreen extends AbstractBiomepediaScreen {
     public static final String TRANSLATIONS_URL = "https://crowdin.com/project/oh-the-biomes-youll-go";
     public static final ResourceLocation BIOMEPEDIA_LOCATION = BYG.createLocation("textures/gui/biomepedia_book_gui.png");
     public static final String DOWNLOAD_URL = ModPlatform.INSTANCE.curseForgeURL();
-    public static final ResourceLocation BOOK_TEXTURES = new ResourceLocation("byg", "textures/gui/biomepedia.png");
+    public static final ResourceLocation BOOK_TEXTURES = BYG.createLocation("textures/gui/biomepedia.png");
 
     int toolTipMaxWidth;
     int textStartHeight;
