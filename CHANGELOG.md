@@ -1,4 +1,4 @@
-# For 1.20.1 and above Check out Oh The Biomes We've Gone: 
+# For 1.20.1 and above Check out the Sequel, Oh The Biomes We've Gone: 
 * CurseForge: https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone
 * Modrinth: https://modrinth.com/mod/oh-the-biomes-weve-gone
 

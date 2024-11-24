@@ -6,7 +6,7 @@ import potionstudios.byg.BYG;
 import software.bernie.geckolib.core.animatable.GeoAnimatable;
 import software.bernie.geckolib.model.GeoModel;
 
-public class ManOWarModel<T extends GeoAnimatable> extends GeoModel<T> {
+class ManOWarModel<T extends GeoAnimatable> extends GeoModel<T> {
 
 		@Override
 		public ResourceLocation getModelResource(T object) {
