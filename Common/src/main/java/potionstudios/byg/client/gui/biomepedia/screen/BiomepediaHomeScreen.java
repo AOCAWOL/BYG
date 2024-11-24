@@ -27,6 +27,7 @@ public class BiomepediaHomeScreen extends AbstractBiomepediaScreen {
     public static final String GITHUB_ISSUES_URL = "https://github.com/Potion-Studios/BYG/issues";
     public static final ResourceLocation BIOMEPEDIA_LOCATION = BYG.createLocation("textures/gui/biomepedia_book_gui.png");
     public static final String DOWNLOAD_URL = ModPlatform.INSTANCE.curseForgeURL();
+    public static final String BWG_URL = "https://www.curseforge.com/minecraft/mc-mods/oh-the-biomes-weve-gone";
     public static final ResourceLocation BOOK_TEXTURES = BYG.createLocation("textures/gui/biomepedia.png");
 
     int toolTipMaxWidth;
@@ -80,7 +81,12 @@ public class BiomepediaHomeScreen extends AbstractBiomepediaScreen {
                 .tooltip(Tooltip.create(Component.translatable("biomepedia.intro.options.download.hover")))
                 .build();
 
-        List<AbstractWidget> buttons = ImmutableList.of(blocksAndItems, biomes, download, issues, donate);
+        Button bwg = new Button.Builder(Component.translatable("biomepedia.intro.options.bwg"),
+                consumeLink(BWG_URL)).bounds(0, this.topPos, buttonWidth, buttonHeight)
+                .tooltip(Tooltip.create(Component.translatable("biomepedia.intro.options.bwg.hover")))
+                .build();
+
+        List<AbstractWidget> buttons = ImmutableList.of(blocksAndItems, biomes, download, issues, donate, bwg);
 
         int listRenderedHeight = IMAGE_HEIGHT + this.bottomPos;
         this.widgets = new WidgetList(buttons, buttonWidth + 9, listRenderedHeight + 20, this.bottomPos + 15, listRenderedHeight - 15, buttonHeight + 4);
