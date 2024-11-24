@@ -12,6 +12,7 @@
 * Add Tiny Lily Pads to Frog Prefer Jump To BlockTag
 * Fix Rose Collector and Explore Biome Advancements missing Language Keys
 * Remove Translate and Ores Options from Biomepedia
+* Add Man O War Bucket to #c:entity_water_buckets item tag
 
 # 4.0.1.2 (Forge Only)
 * Add SereneSeasons Support 
