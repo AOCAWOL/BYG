@@ -3,7 +3,7 @@
   "id": "byg",
   "version": "${version}",
   "name": "Oh The Biomes You'll Go",
-  "description": "An Adventure and Exploration mod with over 80 new biomes!\nTranslator Credits: Dimiral(Russian), Godzmoline(Simplified Chinese)",
+  "description": "An Adventure and Exploration mod with over 80 new biomes!",
   "authors": [
     "Corgi Taco",
     "AOCAWOL",
@@ -19,9 +19,9 @@
     }
   ],
   "contact": {
-    "homepage": "https://bygmc.weebly.com/",
-    "sources": "https://github.com/CorgiTaco/BYG",
-    "issues": "https://github.com/CorgiTaco/BYG/issues"
+    "homepage": "https://potionstudios.net/",
+    "sources": "https://github.com/Potion-Studios/BYG",
+    "issues": "https://github.com/Potion-Studios/BYG/issues"
   },
   "license": "Code: LGPLv3\n Assets: All Rights Reserved",
   "icon": "assets/byg/logo_text.png",
