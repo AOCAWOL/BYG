@@ -9,6 +9,7 @@
 * Remove Corrupted Salem Large House 1 Structure
 * Update Links
 * Update Access Widener to v2
+* Add Tiny Lily Pads to Frog Prefer Jump To BlockTag
 
 # 4.0.1.2 (Forge Only)
 * Add SereneSeasons Support 
