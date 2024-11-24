@@ -1,6 +1,3 @@
-import groovy.json.JsonOutput
-import groovy.json.JsonSlurper
-
 plugins {
     id 'java'
     id 'idea'
@@ -71,24 +68,4 @@ subprojects {
         it.options.encoding = 'UTF-8'
         it.options.release.set(17)
     }
-
-    if (project.name != 'Common')
-        jar {
-            doLast {
-                // Minifies all .json files when building the mod.
-                // Source files are not minified, only the jar copies.
-                def jsonMinifyStart = System.currentTimeMillis()
-                def jsonMinified = 0
-                def jsonBytesSaved = 0
-
-                fileTree(dir: processResources.outputs.files.asPath, include: '**/*.json').each {
-                    jsonMinified++
-                    def oldLength = it.length()
-                    it.text = JsonOutput.toJson(new JsonSlurper().parse(it))
-                    jsonBytesSaved += oldLength - it.length()
-                }
-
-                println('Minified ' + jsonMinified + ' json files. Saved ' + jsonBytesSaved + ' bytes. Took ' + (System.currentTimeMillis() - jsonMinifyStart) + 'ms.')
-            }
-        }
 }
