@@ -11,6 +11,7 @@
 * Update Access Widener to v2
 * Add Tiny Lily Pads to Frog Prefer Jump To BlockTag
 * Fix Rose Collector and Explore Biome Advancements missing Language Keys
+* Remove Translate and Ores Options from Biomepedia
 
 # 4.0.1.2 (Forge Only)
 * Add SereneSeasons Support 

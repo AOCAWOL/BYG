@@ -25,7 +25,6 @@ import java.util.List;
 public class BiomepediaHomeScreen extends AbstractBiomepediaScreen {
     public static final String PATREON_URL = "https://www.patreon.com/potionstudios";
     public static final String GITHUB_ISSUES_URL = "https://github.com/Potion-Studios/BYG/issues";
-    public static final String TRANSLATIONS_URL = "https://crowdin.com/project/oh-the-biomes-youll-go";
     public static final ResourceLocation BIOMEPEDIA_LOCATION = BYG.createLocation("textures/gui/biomepedia_book_gui.png");
     public static final String DOWNLOAD_URL = ModPlatform.INSTANCE.curseForgeURL();
     public static final ResourceLocation BOOK_TEXTURES = BYG.createLocation("textures/gui/biomepedia.png");
@@ -64,21 +63,6 @@ public class BiomepediaHomeScreen extends AbstractBiomepediaScreen {
                 .tooltip(Tooltip.create(Component.translatable("biomepedia.intro.options.biomes.hover")))
                 .build();
 
-        Button ores = new Button.Builder(Component.translatable("biomepedia.intro.options.ores"),
-                button -> {
-                })
-                .bounds(0, this.topPos, buttonWidth, buttonHeight)
-                .tooltip(Tooltip.create(Component.translatable("biomepedia.intro.options.ores.hover")))
-                .build();
-
-        Button translations = new Button.Builder(Component.translatable("biomepedia.intro.options.translate"),
-                consumeLink(TRANSLATIONS_URL))
-                .bounds(0, this.topPos, buttonWidth, buttonHeight)
-                .tooltip(Tooltip.create(Component.translatable("biomepedia.intro.options.translate.hover")))
-                .build();
-
-        ores.active = false;
-
         Button issues = new Button.Builder(Component.translatable("biomepedia.intro.options.issues"),
                 consumeLink(GITHUB_ISSUES_URL))
                 .bounds(0, this.topPos, buttonWidth, buttonHeight)
@@ -96,7 +80,7 @@ public class BiomepediaHomeScreen extends AbstractBiomepediaScreen {
                 .tooltip(Tooltip.create(Component.translatable("biomepedia.intro.options.download.hover")))
                 .build();
 
-        List<AbstractWidget> buttons = ImmutableList.of(blocksAndItems, biomes, ores, download, translations, issues, donate);
+        List<AbstractWidget> buttons = ImmutableList.of(blocksAndItems, biomes, download, issues, donate);
 
         int listRenderedHeight = IMAGE_HEIGHT + this.bottomPos;
         this.widgets = new WidgetList(buttons, buttonWidth + 9, listRenderedHeight + 20, this.bottomPos + 15, listRenderedHeight - 15, buttonHeight + 4);
